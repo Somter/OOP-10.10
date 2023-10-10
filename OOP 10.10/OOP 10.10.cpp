@@ -24,7 +24,7 @@ int main()
         {
             throw DivideByZero("Divide by zero");
         }
-        cout << "Result = " << numerator / denominator << endl;
+        cout << "Result = " << numerator / denominator << endl; 
 
         int mas[3]{ 1,2,3 };
         for (int i = 0; i < 5; i++)
